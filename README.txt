@@ -6,7 +6,7 @@ Running the application.
 npm install
 
 
-2. Running the applciation with docker-compose
+2. Running the application with docker-compose
 
 docker-compose up
 
