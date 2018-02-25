@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-es6-simple-webapp",
+  "version": "1.0.0",
+  "description": "Simple web app to demonstrate use of ES6 syntaxes for NodeJS with babel and webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execute": "webpack && node build/app.bundle.js"
+  },
+  "keywords": [
+    "nodejs",
+    "es6",
+    "babel",
+    "webpack"
+  ],
+  "author": "Chathuranga Tennakoon (www.springbootdev.com)",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
