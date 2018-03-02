@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nodejs-webpack-es6-app:
+    image: nodejs-webpack-es6-image
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 4000:2000
